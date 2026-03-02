@@ -19,7 +19,7 @@ func main() {
 	}
 
 	simple_sql.InsertRow(ctx, conn, simple_sql.TaskModel{
-		Title:       "Сделать домашку",
+		Title:       "Сделать домашку2",
 		Description: "Сделать домашку по русскому языку",
 		Completed:   false,
 		CreatedAt:   time.Now(),
